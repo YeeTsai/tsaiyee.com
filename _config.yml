@@ -6,9 +6,11 @@ description: >
   Software Engineer, Crazy about arts of computer.
 
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: https://caiyi.me # the base hostname & protocol for your site
+url: https://tsaiyee.com # the base hostname & protocol for your site
 git_address: https://github.com/tsaiyee
 #git_edit_address: https://github.com/aksakalli/jekyll-doc-theme/blob/gh-pages
+
+google_analytics: UA-88264578-1
 
 # theme options from https://bootswatch.com/
 # comment out this to use default Bootstrap
