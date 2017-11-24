@@ -1,50 +1,31 @@
 ---
-title: Welcome
+title: Wiki | 知识库
 permalink: /docs/home/
 redirect_from: /docs/index.html
 ---
 
-## Getting started
+## 说明
 
-[GitHub Pages](https://pages.github.com) can automatically generate and serve the website for you.
-Let's say you have a username/organisation `my-org` and project `my-proj`; if you locate Jekyll source under `docs` folder of master branch in your repo `github.com/my-org/my-proj`, the website will be served on `my-org.github.io/my-proj`.
-The good thing about coupling your documentation with the source repo is, whenever you merge features with regarding content to master branch, it will also be published in the webpage instantly.
+知识库会收集一些我认为有价值，值得多次阅读和研究的文章。
 
-1. Just download the source from [github.com/aksakalli/jekyll-doc-theme](https://github.com/aksakalli/jekyll-doc-theme/master) into your repo under `docs` folder.
-2. Edit site settings in  `_config.yml` file according to your project.
-3. Replace `favicon.ico` and `img/logonav.png` with your own logo.
+主要范围：
 
-## Writing content
+### 区块链相关内容
 
-### Docs
+包括不限于区块链白皮书、黄皮书，区块链背后的哲学，区块链应用的研究等方面的文章或论文。
 
-Docs are [collections](https://jekyllrb.com/docs/collections/) of pages stored under `_docs` folder. To create a new page:
+[比特币白皮书：一种点对点的电子现金系统](/docs/blockchain/bitcoin-whitepaper/)
 
-**1.** Create a new Markdown as `_docs/my-page.md` and write [front matter](https://jekyllrb.com/docs/frontmatter/) & content such as:
+[以太坊(Ethereum):下一代智能合约和去中心化应用平台](/docs/blockchain/ethereum-whitepaper/)
 
-```
----
-title: My Page
-permalink: /docs/my-page/
----
+[以太坊核心概念](/docs/blockchain/ethereum-core/)
 
-Hello World!
-```
+[以太坊中的账户、交易、Gas和区块Gas Limit](/docs/blockchain/ethereum-account-transaction-gas/)
 
-**2.** Add the pagename to `_data/docs.yml` file in order to list in docs navigation panel:
+### 编程语言相关内容
 
-```
-- title: My Group Title
-  docs:
-  - my-page
-```
+我想研究的，正在使用的，曾经使用的编程语言方面的一些教程、参考或者对某个具体知识点的研究等方面的文章。
 
-### Blog posts
+### 金融科技相关内容
 
-Add a new Markdown file such as `2017-05-09-my-post.md` and write the content similar to other post examples.
-
-### Pages
-
-The home page is located under `index.html` file. You can change the content or design completely different welcome page for your taste. (You can use [bootstrap componenets](http://getbootstrap.com/components/))
-
-In order to add a new page, create a new html or markdown file under root directory and link it in `_includes/topnav.html`.
+量化交易、高频交易、智能投顾等方面的好的思路、论文等。

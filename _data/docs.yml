@@ -1,11 +1,12 @@
-- title: Getting Started
+- title: 区块链
   docs:
-  - home
-  - themes
-  - customization
-
-- title: Examples
-  docs:
-  - cheatsheet
-  - font-awesome
-  - bootstrap
+  - text: 比特币白皮书
+    url: blockchain/bitcoin-whitepaper
+  - text: 以太坊白皮书
+    url: blockchain/ethereum-whitepaper
+  - text: 以太坊核心概念
+    url:  blockchain/ethereum-core
+  - text: 以太坊的账户、交易及GAS
+    url: blockchain/ethereum-account-transaction-gas
+  - text: 以太坊智能合约的设计模式与升级方法
+    url: blockchain/ethereum-smartcontract-design-and-upgrade

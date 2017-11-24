@@ -39,7 +39,6 @@ body {
   }
 }
 
-
 .header-container {
   background-color: black;
   background: url('../img/bg.jpg') no-repeat 50% 0;
@@ -67,6 +66,10 @@ body {
   padding-top: 10px;
   background-color: $gray-lighter;
   color: $gray-dark;
+}
+
+.font-small {
+  font-size: 85%;
 }
 
 .post-list-container {

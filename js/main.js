@@ -30,5 +30,6 @@ $(function() {
     $('#markdown-content-container table').addClass('table');
     $('#markdown-content-container img').addClass('img-responsive');
 
+    $('#toc').toc();
 
 });
