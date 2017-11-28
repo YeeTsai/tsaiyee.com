@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 【入门系列】以太坊智能合约开发环境搭建(Ubuntu 140.04)
+title: 【入门系列】以太坊智能合约开发环境搭建(Ubuntu 14.04)
 ---
 ### 开发环境概述
 以太坊开发环境主要用到以下组件：
@@ -44,7 +44,7 @@ npm config set registry https://registry.npm.taobao.org
 
 也可通过 https://ethereum.org/ 下载官方图形版钱包软件，里面自带geth。
 
-```Javascript
+```bash
 mkdir wallet
 wget https://gethstore.blob.core.windows.net/builds/geth-linux-amd64-1.7.2-1db4ecdc.tar.gz
 gzip -unzip geth-linux-amd64-1.7.2-1db4ecdc.tar.gz

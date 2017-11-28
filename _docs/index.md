@@ -1,5 +1,5 @@
 ---
-title: Wiki | 知识库
+title: 收藏文章分类索引
 permalink: /docs/home/
 redirect_from: /docs/index.html
 ---
