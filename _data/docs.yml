@@ -10,3 +10,5 @@
     url: blockchain/ethereum-account-transaction-gas
   - text: 以太坊智能合约的设计模式与升级方法
     url: blockchain/ethereum-smartcontract-design-and-upgrade
+  - text: 去中心化之辩与“三个世界”之争，区块链应用落地的模式选择
+    url: blockchain/blockchain-application-style-baas-1
