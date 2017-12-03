@@ -1,5 +1,7 @@
 ---
 title: 去中心化之辩与“三个世界”之争，区块链应用落地的模式选择
+author: 王玮（玮哥）
+category: blockchain
 permalink: /docs/blockchain/blockchain-application-style-baas-1/
 ---
 

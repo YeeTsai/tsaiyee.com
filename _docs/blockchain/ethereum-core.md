@@ -1,5 +1,7 @@
 ---
 title: 以太坊核心概念
+author: 官方网站
+category: blockchain
 permalink: /docs/blockchain/ethereum-core/
 ---
 

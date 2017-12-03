@@ -1,5 +1,7 @@
 ---
 title: 以太坊(Ethereum):下一代智能合约和去中心化应用平台
+author: Vitalik Buterin
+category: blockchain
 permalink: /docs/blockchain/ethereum-whitepaper/
 ---
 `翻译：巨蟹 、少平`

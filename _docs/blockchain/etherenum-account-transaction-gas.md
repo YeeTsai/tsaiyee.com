@@ -1,5 +1,7 @@
 ---
 title: 以太坊中的账户、交易、Gas和区块Gas Limit
+author: Hudson Jameson
+category: blockchain
 permalink: /docs/blockchain/ethereum-account-transaction-gas/
 ---
 `

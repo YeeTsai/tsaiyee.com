@@ -1,5 +1,7 @@
 ---
 title: 以太坊智能合约的设计模式与升级方法
+author: 郭世清
+category: blockchain
 permalink: /docs/blockchain/ethereum-smartcontract-design-and-upgrade/
 ---
 `原文链接: https://github.com/toxotguo/thinking/blob/master/浅谈以太坊智能合约的设计模式与升级方法.md`
