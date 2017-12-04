@@ -8,7 +8,7 @@ sectionid: blog
 <div class="container">
         {% for page in site.posts %}
       <div class="row">
-        <div class="col-md-8 col-md-offset-1">
+        <div class="col-md-8 col-md-offset-2">
         <p>
             <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
             <span><em> {{ page.date | date: "%Y-%m-%d"  }} {% if page.author %} by {{ page.author }}{% endif %}</em></span>
