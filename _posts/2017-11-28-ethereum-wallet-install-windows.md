@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 【入门系列】以太坊官方钱包软件在Windows下的安装
+title: 【入门系列】以太坊官方钱包软件(轻节点模式)在Windows下的安装
 ---
 
 以太坊官方钱包(Ethereum Wallet)在Mac OSX和Linux（Unbuntu）下安装都很简单，安装后直接打开使用，但在Windows下总有各式各样的问题。
