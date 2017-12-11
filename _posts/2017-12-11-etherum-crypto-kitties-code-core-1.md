@@ -16,7 +16,7 @@ CryptoKitties一共有三部分代码，核心代码（KittyCore）、拍卖行�
 今天我们先来看看核心代码（KittyCore）。
 
 第一个合约，Ownable，为以太坊标准合约，一个用户权限控制的标准实现，此处就不一一详说。
-```Javascript
+{% highlight javascript %}
 pragma solidity ^0.4.11;
 /**
  * @title Ownable
@@ -49,7 +49,7 @@ contract Ownable {
     }
   }
 }
-```
+{% endhighlight %}
 
 以下这段代码定义了 ERC721的接口标准（ERC: Non-fungible Token Standard #721）。
 
@@ -59,7 +59,7 @@ ERC721是以太坊社区提出的不可替代（Non-fungible）的Token的接口
 
 和ERC20类似，ERC721定义了余额查询、权限查询、转账、授权、授权转出等接口，增加了对TokenId的支持。
 
-```Javascript
+{% highlight javascript %}
 /// @title Interface for contracts conforming to ERC-721: Non-Fungible Tokens
 /// @author Dieter Shirley <dete@axiomzen.co> (https://github.com/dete)
 contract ERC721 {
@@ -82,11 +82,11 @@ contract ERC721 {
     // ERC-165 Compatibility (https://github.com/ethereum/EIPs/issues/165)
     function supportsInterface(bytes4 _interfaceID) external view returns (bool);
 }
-```
+{% endhighlight %}
 
 接下来是基因计算接口。
 
-```Javascript
+{% highlight javascript %}
 /// @title SEKRETOOOO
 contract GeneScienceInterface {
     /// @dev 一个简单的布尔值，表明是我们所期望的合约。
@@ -98,11 +98,11 @@ contract GeneScienceInterface {
     /// @return 返回应该传递给下一代孩子的基因
     function mixGenes(uint256 genes1, uint256 genes2, uint256 targetBlock) public returns (uint256);
 }
-```
+{% endhighlight %}
 
 下面的合约对KittyCore合约的特殊管理权限做了定义。
 
-```Javascript
+{% highlight javascript %}
 /// @title 管理CryptoKitties的特殊访问权限的合约。
 /// @author Axiom Zen (https://www.axiomzen.co)
 /// @dev See the KittyCore contract documentation to understand how the various contract facets are arranged.
@@ -203,6 +203,6 @@ contract KittyAccessControl {
     }
 }
 
-```
+{% endhighlight %}
 
 未完待续…………
