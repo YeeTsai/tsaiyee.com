@@ -84,7 +84,7 @@ contract ERC721 {
 }
 ```
 
-接下来是繁殖接口。
+接下来是基因计算接口。
 
 ```Javascript
 /// @title SEKRETOOOO
@@ -95,7 +95,7 @@ contract GeneScienceInterface {
     /// @dev 给定小猫1和2的基因，返回一个基因组合，可能有一个随机因子
     /// @param genes1 genes of mom
     /// @param genes2 genes of sire
-    /// @return the genes that are supposed to be passed down the child
+    /// @return 返回应该传递给下一代孩子的基因
     function mixGenes(uint256 genes1, uint256 genes2, uint256 targetBlock) public returns (uint256);
 }
 ```
