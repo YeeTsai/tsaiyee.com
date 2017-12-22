@@ -16,7 +16,7 @@ CryptoKitties一共有三部分代码，核心代码（KittyCore）、拍卖行�
 今天我们先来看看核心代码（KittyCore）。
 
 第一个合约，Ownable，为以太坊标准合约，一个用户权限控制的标准实现，此处就不一一详说。
-{% highlight javascript %}
+~~~ javascript
 pragma solidity ^0.4.11;
 /**
  * @title Ownable
@@ -49,7 +49,7 @@ contract Ownable {
     }
   }
 }
-{% endhighlight %}
+~~~
 
 以下这段代码定义了 ERC721的接口标准（ERC: Non-fungible Token Standard #721）。
 
