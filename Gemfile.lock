@@ -208,7 +208,6 @@ DEPENDENCIES
   jekyll-redirect-from
   jekyll-seo-tag
   jekyll-sitemap
-  pygments.rb
   redcarpet
   tzinfo-data
 
