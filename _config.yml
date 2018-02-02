@@ -27,6 +27,9 @@ gems:
   - jekyll-seo-tag
   - jekyll-sitemap
 
+include:
+  - download/
+
 exclude:
   - Gemfile
   - Gemfile.lock
