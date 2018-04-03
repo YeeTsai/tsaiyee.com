@@ -1,5 +1,6 @@
 ---
 layout: post
+category: blockchain
 title: 【入门系列】以太坊智能合约开发环境搭建(Ubuntu 14.04)
 ---
 ### 开发环境概述

@@ -1,5 +1,6 @@
 ---
 layout: post
+category: blockchain
 title: 在CentOS上搭建HyperLedger Fabric开发测试环境
 ---
 

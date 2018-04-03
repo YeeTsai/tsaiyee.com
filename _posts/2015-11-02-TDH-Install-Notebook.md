@@ -1,5 +1,6 @@
 ---
 layout: post
+category: bigdata
 title: TDH 安装日志
 ---
 最近在做TDH（Transwarp Data Hub）的技术验证，本文记录安装时遇到的问题及解决办法。

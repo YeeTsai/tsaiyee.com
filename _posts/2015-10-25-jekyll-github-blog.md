@@ -1,5 +1,6 @@
 ---
 layout: post
+category: program
 title: 使用Jekyll、GitHub搭建Blog
 description: "如果你玩腻了WordPress，亦或你是个喜欢折腾的Coder，那么你应该使用Jekyll和GitHub搭建一个属于自己的Blog，......"
 keywords: "Jekyll, GitHub Pages, Markdown"

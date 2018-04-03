@@ -1,5 +1,6 @@
 ---
 layout: post
+category: blockchain
 title: 【入门系列】以太坊官方钱包软件(轻节点模式)在Windows下的安装
 ---
 

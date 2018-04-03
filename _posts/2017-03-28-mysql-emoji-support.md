@@ -1,5 +1,6 @@
 ---
 layout: post
+category: program
 title: MYSQL支持表情代码解决方案（MYSQL 5.7)
 ---
 

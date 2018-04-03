@@ -1,5 +1,6 @@
 ---
 layout: post
+category: blockchain
 title: 【智能合约】CryptoKitties核心代码(KittyCore)分析（一）
 ---
 

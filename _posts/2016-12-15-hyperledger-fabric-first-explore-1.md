@@ -1,5 +1,6 @@
 ---
 layout: post
+category: blockchain
 title: HyperLedger Fabric 初探 （一） - 术语
 ---
 

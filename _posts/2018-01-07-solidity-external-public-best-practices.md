@@ -1,5 +1,6 @@
 ---
 layout: post
+category: blockchain
 title: Solidity中的external与public使用最佳实践
 ---
 

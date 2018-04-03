@@ -1,5 +1,6 @@
 ---
 layout: post
+category: OS
 title: Red Hat Enterprise 6.4 网卡配置备忘
 description: "Red Hat Enterprise 最小安装Basic Server, 发现原来啥都配好的现在要自己配置了。......"
 keywords: "网卡配置, RedHat"

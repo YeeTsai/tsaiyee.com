@@ -8,10 +8,11 @@ layout: default
   <div class="row">
     <div class="col-md-6">
       <h5>Favorite | 收藏</h5>
-      {% for doc in site.docs %}
+      {% assign docs = site.docs | sort: "date" | reverse %}
+      {% for doc in docs %}
       <p>
           <strong><a href="{{ doc.url | prepend: site.baseurl }}">{{ doc.title }}</a></strong>
-            <span class="font-small"> {% if doc.author %} {{ doc.author }}{% endif %}</span>
+            <span class="font-small">  {% if doc.author %} {{ doc.author }} {% endif %}</span>
       </p>
       {% endfor %}
     </div>
@@ -20,7 +21,7 @@ layout: default
         {% for page in site.posts %}
           <p>
             <strong><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></strong>
-            <span class="font-small"> {{ page.date | date: "%Y-%m-%d" }} {% if page.author %} by {{ page.author }}{% endif %}</span>
+            <span class="font-small"> {{ page.date | date: "%Y-%m-%d" }} </span>
           </p>
         {% endfor %}
       </div>
