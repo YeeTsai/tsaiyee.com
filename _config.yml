@@ -1,13 +1,13 @@
 # Site settings
 title: Yee's Word | 一言堂而皇之
-email: root@caiyi.me
+email: yee.tsai@gmail.com
 description: >
   软件工程师，痴迷于计算机的艺术。
   Software Engineer, Crazy about arts of computer.
 
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: https://tsaiyee.com # the base hostname & protocol for your site
-git_address: https://github.com/tsaiyee
+url: https://yeetsai.com # the base hostname & protocol for your site
+git_address: https://github.com/YeeTsai
 #git_edit_address: https://github.com/aksakalli/jekyll-doc-theme/blob/gh-pages
 
 google_analytics: UA-88264578-1
